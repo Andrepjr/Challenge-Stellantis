@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
-    <title>webSite</title>
+    <title>Landing Page</title>
 
 </head>
 
@@ -19,10 +19,12 @@
         <nav class="navigation">
 
             <span class="logo"><b>Nome da Empresa</b></span>
+            <span class="contato">| Contato</span>
 
+            
             <ul class="nav-menu">
 
-                <li class="nav-item-text"><a href="#">Home</a></li>
+                <li class="nav-item-text"><a href="index.html">Home</a></li>
                 <li class="nav-item-text"><a href="#">Tecnologia</a></li>
                 <li class="nav-item-text"><a href="team.html">Equipe</a></li>
 
@@ -34,15 +36,39 @@
 
     <main>
 
+     
+        
         <section class="home">
 
             <div class="home-text">
 
-                <h4 class="text-h4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, dolore.</h4>
-                <h1 class="text-h1">Lorem ipsum dolor sit amet.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nostrum natus vitae laudantium harum, atque dolorem maiores quo fugiat quisquam illum optio minus odit rem quae minima, exercitationem, saepe placeat.</p>
+                    <h4 class="text-h4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, dolore.</h4>
+                        <h1 class="text-h1">Lorem ipsum dolor sit amet.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nostrum natus vitae laudantium harum, atque dolorem maiores quo fugiat quisquam illum optio minus odit rem quae minima, exercitationem, saepe placeat.</p>
+                        <button onclick="myFunction()" class="button">Entre em contato conosco</button>
+
 
             </div>
+
+            <!-- Javascript -->
+            
+            <script>
+                function myFunction() {
+                    var quantidade = prompt("Quantas vezes ao mês você utiliza metrô/trem?")
+
+                    if (quantidade >= 7 )
+                        prompt("Insira o seu email para mais informações.")
+
+                    else if (quantidade < 7 )
+                        alert("Confira as nossas redes sociais para mais informações.")
+                    
+                }
+
+            </script>
+
+            <!-- Javascript -->
+
+            
 
             <div class="home-img">
 
@@ -53,6 +79,10 @@
         </section>
 
     </main>
+
+    
+
+    
     
 </body>
 
