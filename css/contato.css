@@ -21,18 +21,12 @@ body{
     box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
     background: white;
-    position: fixed;
 }
 .navigation .logo{
     color: black;
     font-size:xx-large;
     
 }
-.navigation .contato{
-    width: 31%;
-
-}
-
 .logo span{
     color: black;
 }
@@ -47,50 +41,57 @@ body{
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
+    text-decoration: none;
 }
 .navigation ul li a:hover{
     color: gray;
     
 }
 
-.home{
-    width: 100%;
-    height: 100vh;
+.nav-menu {
+    padding: 0;
+    margin: 0.1rem 0 0 0;
+    text-decoration: none;
+}
+
+#contato {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 10%;
 }
 
-.home-text{
-    max-width: 37rem;
-    padding: 1.5rem;
-    margin-top: 6rem;
-}
-.home-text .text-h4{
-    font-size: 1.5rem;
-    color: var(--red);
-    margin-bottom: 1rem;
-}
-.home-text .text-h1{
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    line-height: 4rem;
-}
-.home-text p{
-    margin-bottom: 4rem;
+.contato {
+    width: 50%;
+    padding: 2rem;
+    margin-top: 2rem;
+    float: left;
 }
 
-.home-img img{
-    width: 125%;
-   
+.contato h4 {
+    margin: 3rem 0 1rem 0;
 }
 
-.button{
-    text-transform: uppercase;
+.contato button {
+    padding: 0.5rem;
+    border: 1px solid;
+}
+
+.contato .redes {
+    display: flex;
+}
+
+.contato .redes p {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.contato p a {
+    display: block;
+    text-decoration: none;
+    margin: 1rem 0;
     color: black;
-    background-color: rgb(199, 199, 199);
-    width: 45%;
-
 }
 
+.location {
+    width: 50%;
+    margin-top: 4rem;
+    padding: 1rem;
+}
