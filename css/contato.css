@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+   background-image: linear-gradient(to right, white , rgb(110, 110, 110));
+   
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: white;
+}
+.navigation .logo{
+    color: black;
+    font-size:xx-large;
+    
+}
+.logo span{
+    color: black;
+}
+.navigation ul{
+    display: flex;
+    align-items:center;
+    gap: 5rem;
+    
+}
+.navigation ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.navigation ul li a:hover{
+    color: gray;
+    
+}
+
+.nav-menu {
+    padding: 0;
+    margin: 0.1rem 0 0 0;
+    text-decoration: none;
+}
+
+#contato {
+    display: flex;
+}
+
+.contato {
+    width: 50%;
+    padding: 2rem;
+    margin-top: 2rem;
+    float: left;
+}
+
+.contato h4 {
+    margin: 3rem 0 1rem 0;
+}
+
+.contato button {
+    padding: 0.5rem;
+    border: 1px solid;
+}
+
+.contato .redes {
+    display: flex;
+}
+
+.contato .redes p {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.contato p a {
+    display: block;
+    text-decoration: none;
+    margin: 1rem 0;
+    color: black;
+}
+
+.location {
+    width: 50%;
+    margin-top: 4rem;
+    padding: 1rem;
+}

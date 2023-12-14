@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Landing Pag</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navigation">
+
+            <span class="logo"><b>Sky Droker</b></span>
+
+            
+            <ul class="nav-menu">
+
+                <li class="nav-item-text"><a href="home.html">Home</a></li>
+                <li class="nav-item-text"><a href="tech.html">Tecnologia</a></li>
+                <li class="nav-item-text"><a href="team.html">Equipe</a></li>
+                <li class="nav-item-text"><a href="contato.html">Contato</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+     
+        
+        <section class="home">
+
+            <div class="home-text">
+
+                    <h4 class="text-h4">Mobilidade e Inteligência Artificial</h4>
+                    <h1 class="text-h1">Sistema de controle de trafico via iA</h1>
+                    <p>Atualmente a mobilidade urbana é uma pauta discutida constantemente principalmente em grandes centros urbanos. Com a evolução da tecnologia hoje podemos desfrutar de incríveis invenções humanas como carros, motos, aviões e etc. Entretanto, com junto com novas possibilidades surgiram novos desafios. A Sky Droker nasceu da necessidade de tornar os meios de locomoção e convivência eficiente e inteligente.</p>
+                    <button onclick="myFunction()" class="button">Entre em contato conosco</button>
+        
+            </div>
+
+            <!-- Javascript -->
+            
+            <script>
+                function myFunction() {
+                    var quantidade = prompt("Quantas vezes ao mês você utiliza metrô/trem?")
+
+                    if (quantidade >= 7 )
+                        prompt("Insira o seu email para mais informações.")
+
+                    else if (quantidade < 7 )
+                        alert("Confira as nossas redes sociais para mais informações.")
+                    
+                }
+
+            </script>
+
+            <!-- Javascript -->
+
+            <div class="home-img">
+
+                <img src="./imagens/maxresdefault.jpg" alt="Carro e drone">
+            
+            </div>
+
+        </section>
+
+    </main>
+    
+</body>
+
+</html>

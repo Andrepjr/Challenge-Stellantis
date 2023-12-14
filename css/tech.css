@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+   background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(110, 110, 110));
+   
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: white;
+    position: fixed;
+}
+.navigation .logo{
+    color: black;
+    font-size:xx-large;
+    
+}
+
+.logo span{
+    color: black;
+}
+.navigation ul{
+    display: flex;
+    align-items:center;
+    gap: 5rem;
+    
+}
+.navigation ul li a{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.navigation ul li a:hover{
+    color: gray;
+    
+}
+
+#logo-wrap {
+    background:url(/imagens/pexels-ruiyang-zhang-3717291.jpg);
+    background-size:cover;
+    height: 200px;
+  }
+
+.tecnologia-text{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.tecnologia-text2{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.tecnologia-text3 {
+    width: auto;
+    height: 800px;
+    font-size: medium;
+
+}
+
+.card-body{
+    height: 800px;
+    width: 20px;
+}
+
+
